@@ -1,2 +1,8 @@
-# Shannon-capacity-analysis-with-MATLAB
-MATLAB script for visualizing Shannon capacity in AWGN channels. Includes plots for theoretical capacity vs. SNR, modulation scheme positions (BPSK, QPSK, QAM), and effects of coding rates on spectral efficiency. Useful for analyzing communication system performance limits.
+# Project Description – Shannon Capacity and Modulation Analysis
+This MATLAB-based project explores the fundamental limits of data transmission in digital communication systems using Shannon's channel capacity theorem. The project consists of three sequential simulations and visualizations that aim to provide intuitive insight into how modulation schemes and coding rates influence spectral efficiency under varying SNR (Signal-to-Noise Ratio) conditions.
+
+The first plot illustrates the Shannon capacity curve for an AWGN (Additive White Gaussian Noise) channel, showing the theoretical maximum bit rate (in bps/Hz) achievable without error at different SNR levels. Key capacity markers, such as the SNR required to achieve 1 bps/Hz and 4 bps/Hz, are highlighted to serve as reference points for real-world modulation and coding systems.
+
+The second graph overlays the capacity curve with the position of typical modulation schemes, including BPSK, QPSK, 16-QAM, and 64-QAM. This is done by plotting the required SNR for each scheme to reach its ideal spectral efficiency. The result demonstrates the performance gap between theoretical limits and practical modulation under uncoded transmission.
+
+The third figure incorporates FEC (Forward Error Correction) coding by introducing coding rates (R) into the spectral efficiency calculation. It shows the shifted positions of modulation schemes when combined with coding rates such as R = 1/2 and R = 5/6, providing a more realistic placement of modulation-coding pairs in relation to the Shannon limit. This visual emphasizes how coding brings practical systems closer to theoretical capacity.
